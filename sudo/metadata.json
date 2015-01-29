@@ -1,0 +1,39 @@
+{
+  "name": "kemra102-sudo",
+  "version": "1.2.3",
+  "author": "Danny Roberts",
+  "summary": "Module for managing sudo and sudoers",
+  "license": "Apache License, Version 2.0",
+  "source": "https://github.com/kemra102/puppet-sudo",
+  "project_page": "https://github.com/kemra102/puppet-sudo",
+  "issues_url": "https://github.com/kemra102/puppet-sudo/issues",
+  "tags": [
+    "sudo",
+    "sudoers"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6.6"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6.6"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04",
+        "14.04"
+      ]
+    }
+  ],
+  "dependencies": [
+  
+  ]
+}
