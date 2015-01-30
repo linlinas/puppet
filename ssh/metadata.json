@@ -1,8 +1,8 @@
 {
-  "name": "lin-sudo",
+  "name": "lin-ssh",
   "version": "0.1.0",
-  "author": "lin",
-  "summary": null,
+  "author": "linlinas",
+  "summary": "simple ssh",
   "license": "Apache 2.0",
   "source": "",
   "project_page": null,

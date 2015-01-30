@@ -1,6 +1,6 @@
-# == Class: sudo
+# == Class: vim
 #
-# Full description of class sudo here.
+# Full description of class vim here.
 #
 # === Parameters
 #
@@ -23,7 +23,7 @@
 #
 # === Examples
 #
-#  class { 'sudo':
+#  class { 'vim':
 #    servers => [ 'pool.ntp.org', 'ntp.local.company.com' ],
 #  }
 #
@@ -35,7 +35,8 @@
 #
 # Copyright 2015 Your name here, unless otherwise noted.
 #
-class sudo {
-
-
+class vim {
+  package { "vim-enhanced":
+    ensure	=> present,
+  }
 }

@@ -1,7 +1,16 @@
-# == Class: sudo
+# == Class: ssh
 #
-# Full description of class sudo here.
+# Full description of class ssh here.
 #
+
+class ssh {
+  class { '::ssh::package': } ->
+  class { '::ssh::config': } ->
+  class { '::ssh::service':} ->
+  Class['ssh']
+}
+   
+
 # === Parameters
 #
 # Document parameters here.
@@ -23,7 +32,7 @@
 #
 # === Examples
 #
-#  class { 'sudo':
+#  class { 'ssh':
 #    servers => [ 'pool.ntp.org', 'ntp.local.company.com' ],
 #  }
 #
@@ -35,7 +44,3 @@
 #
 # Copyright 2015 Your name here, unless otherwise noted.
 #
-class sudo {
-
-
-}

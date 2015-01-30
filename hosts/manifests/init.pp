@@ -1,6 +1,6 @@
-# == Class: sudo
+# == Class: hosts
 #
-# Full description of class sudo here.
+# Full description of class hosts here.
 #
 # === Parameters
 #
@@ -23,7 +23,7 @@
 #
 # === Examples
 #
-#  class { 'sudo':
+#  class { 'hosts':
 #    servers => [ 'pool.ntp.org', 'ntp.local.company.com' ],
 #  }
 #
@@ -35,7 +35,7 @@
 #
 # Copyright 2015 Your name here, unless otherwise noted.
 #
-class sudo {
+class hosts {
 
 
 }
